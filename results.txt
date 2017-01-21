@@ -2,20 +2,21 @@ Project SameGraph (.NETCoreApp,Version=v1.0) was previously compiled. Skipping c
 Solution:
   {"0":1,"7":6,"2":7,"1":3,"4":5,"5":2,"3":0,"6":4}
 Solution valid: True
-Stats: Time=32 ms | Nodes=8 | Edges=18 | Solution=True | TimePerEdge=1.77777777777778
+Stats: Time=30 ms | Nodes=8 | Edges=18 | Solution=True | TimePerEdge=1.66666666666667
 
 ==================================
 Trying larger random graphs:
 ==================================
-Stats: Time=0 ms | Nodes=2 | Edges=2 | Solution=True | TimePerEdge=0
-Stats: Time=5 ms | Nodes=4 | Edges=2 | Solution=True | TimePerEdge=2.5
-Stats: Time=0 ms | Nodes=8 | Edges=10 | Solution=True | TimePerEdge=0
-Stats: Time=0 ms | Nodes=16 | Edges=76 | Solution=True | TimePerEdge=0
-Stats: Time=0 ms | Nodes=32 | Edges=258 | Solution=True | TimePerEdge=0
-Stats: Time=1 ms | Nodes=64 | Edges=1054 | Solution=True | TimePerEdge=0.00094876660341556
-Stats: Time=4 ms | Nodes=128 | Edges=4006 | Solution=True | TimePerEdge=0.000998502246630055
-Stats: Time=21 ms | Nodes=256 | Edges=16258 | Solution=True | TimePerEdge=0.00129167179234838
-Stats: Time=170 ms | Nodes=512 | Edges=65774 | Solution=True | TimePerEdge=0.00258460789977803
-Stats: Time=1384 ms | Nodes=1024 | Edges=262198 | Solution=True | TimePerEdge=0.00527845368767115
-Stats: Time=11760 ms | Nodes=2048 | Edges=1048273 | Solution=True | TimePerEdge=0.0112184516819569
-Stats: Time=83347 ms | Nodes=4096 | Edges=4193498 | Solution=True | TimePerEdge=0.0198752926554394
+Stats: Time=0 ms | Nodes=2 | Edges=1 | Solution=True | TimePerEdge=0
+Stats: Time=5 ms | Nodes=4 | Edges=5 | Solution=True | TimePerEdge=1
+Stats: Time=0 ms | Nodes=8 | Edges=18 | Solution=True | TimePerEdge=0
+Stats: Time=0 ms | Nodes=16 | Edges=63 | Solution=True | TimePerEdge=0
+Stats: Time=1 ms | Nodes=32 | Edges=249 | Solution=True | TimePerEdge=0.00401606425702811
+Stats: Time=0 ms | Nodes=64 | Edges=988 | Solution=True | TimePerEdge=0
+Stats: Time=4 ms | Nodes=128 | Edges=4060 | Solution=True | TimePerEdge=0.000985221674876847
+Stats: Time=22 ms | Nodes=256 | Edges=16270 | Solution=True | TimePerEdge=0.00135218192993239
+Stats: Time=170 ms | Nodes=512 | Edges=65983 | Solution=True | TimePerEdge=0.00257642119939985
+Stats: Time=1374 ms | Nodes=1024 | Edges=261554 | Solution=True | TimePerEdge=0.005253217308854
+Stats: Time=11328 ms | Nodes=2048 | Edges=1048027 | Solution=True | TimePerEdge=0.0108088818322429
+Stats: Time=83645 ms | Nodes=4096 | Edges=4195349 | Solution=True | TimePerEdge=0.0199375546587423
+Stats: Time=667925 ms | Nodes=8192 | Edges=16780542 | Solution=True | TimePerEdge=0.0398035415065854
