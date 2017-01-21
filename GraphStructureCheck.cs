@@ -16,8 +16,6 @@ namespace SampeGraph
 
             public IDictionary<int, int> Mapping { get; private set; }
 
-            public IDictionary<int, int> ReverseMapping { get; private set; }
-
             public IDictionary<int, ISet<int>> Possibilities { get; private set; }
 
             public SolutionState(int[][] g1, int[][] g2, IDictionary<int, int> mapping, IDictionary<int, ISet<int>> possibilities)
@@ -25,7 +23,6 @@ namespace SampeGraph
                 Graph1 = g1;
                 Graph2 = g2;
                 Mapping = mapping;
-                ReverseMapping = Mapping.ToDictionary(pair => pair.Value, pair => pair.Key);
                 Possibilities = possibilities;
                 Invalid = false;
                 Simplify();
@@ -36,7 +33,6 @@ namespace SampeGraph
                 Graph1 = old.Graph1;
                 Graph2 = old.Graph2;
                 Mapping = new Dictionary<int, int>(old.Mapping);
-                ReverseMapping = new Dictionary<int, int>(old.ReverseMapping);
                 Possibilities = old.Possibilities.ToDictionary(pair => pair.Key, pair => (ISet<int>) new HashSet<int>(pair.Value));
                 Invalid = old.Invalid;
             }
@@ -96,7 +92,6 @@ namespace SampeGraph
 
                 // Set the mapping
                 Mapping[id] = toId;
-                ReverseMapping[toId] = id;
 
                 // Clear out the id as a possibility
                 Possibilities.Remove(id);
