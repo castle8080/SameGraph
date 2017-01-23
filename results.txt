@@ -1,20 +1,75 @@
-Project SameGraph (.NETCoreApp,Version=v1.0) was previously compiled. Skipping compilation.
+Project SameGraph (.NETCoreApp,Version=v1.0) will be compiled because inputs were modified
+Compiling SameGraph for .NETCoreApp,Version=v1.0
+
+Compilation succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time elapsed 00:00:01.0051227
+ 
+
 == Checking Sample Graph ==========================
 Solution:
   {"0":1,"7":6,"2":7,"1":3,"4":5,"5":2,"3":0,"6":4}
 Solution valid: True
-Stats: Time=43 ms | Nodes=8 | Edges=18 | Solution=True | TimePerEdge=2.38888888888889
+Stats: Time=38 ms | Nodes=8 | Edges=18 | Solution=True | TimePerEdge=2.11111111111111
 == Running successive graph sizes ======================
-Stats: Time=8 ms | Nodes=2 | Edges=0 | Solution=True | TimePerEdge=0
+Stats: Time=0 ms | Nodes=0 | Edges=0 | Solution=True | TimePerEdge=0
+Stats: Time=0 ms | Nodes=0 | Edges=0 | Solution=True | TimePerEdge=0
+Stats: Time=0 ms | Nodes=0 | Edges=0 | Solution=True | TimePerEdge=0
+Stats: Time=0 ms | Nodes=0 | Edges=0 | Solution=True | TimePerEdge=0
+Stats: Time=0 ms | Nodes=0 | Edges=0 | Solution=True | TimePerEdge=0
+Stats: Time=0 ms | Nodes=0 | Edges=0 | Solution=True | TimePerEdge=0
+Stats: Time=0 ms | Nodes=0 | Edges=0 | Solution=True | TimePerEdge=0
+Stats: Time=0 ms | Nodes=0 | Edges=0 | Solution=True | TimePerEdge=0
+Stats: Time=0 ms | Nodes=0 | Edges=0 | Solution=True | TimePerEdge=0
+Stats: Time=0 ms | Nodes=0 | Edges=0 | Solution=True | TimePerEdge=0
+Stats: Time=0 ms | Nodes=0 | Edges=0 | Solution=True | TimePerEdge=0
+Stats: Time=0 ms | Nodes=0 | Edges=0 | Solution=True | TimePerEdge=0
+Stats: Time=0 ms | Nodes=0 | Edges=0 | Solution=True | TimePerEdge=0
+Stats: Time=0 ms | Nodes=0 | Edges=0 | Solution=True | TimePerEdge=0
+Stats: Time=0 ms | Nodes=0 | Edges=0 | Solution=True | TimePerEdge=0
+Stats: Time=0 ms | Nodes=0 | Edges=0 | Solution=True | TimePerEdge=0
+Stats: Time=0 ms | Nodes=0 | Edges=0 | Solution=True | TimePerEdge=0
+Stats: Time=0 ms | Nodes=0 | Edges=0 | Solution=True | TimePerEdge=0
+Stats: Time=0 ms | Nodes=1 | Edges=1 | Solution=True | TimePerEdge=0
+Stats: Time=0 ms | Nodes=1 | Edges=0 | Solution=True | TimePerEdge=0
+Stats: Time=0 ms | Nodes=1 | Edges=0 | Solution=True | TimePerEdge=0
+Stats: Time=0 ms | Nodes=2 | Edges=1 | Solution=True | TimePerEdge=0
+Stats: Time=8 ms | Nodes=2 | Edges=2 | Solution=True | TimePerEdge=4
+Stats: Time=0 ms | Nodes=3 | Edges=3 | Solution=True | TimePerEdge=0
 Stats: Time=0 ms | Nodes=4 | Edges=3 | Solution=True | TimePerEdge=0
-Stats: Time=0 ms | Nodes=8 | Edges=17 | Solution=True | TimePerEdge=0
-Stats: Time=0 ms | Nodes=16 | Edges=54 | Solution=True | TimePerEdge=0
-Stats: Time=1 ms | Nodes=32 | Edges=288 | Solution=True | TimePerEdge=0.00347222222222222
-Stats: Time=2 ms | Nodes=64 | Edges=1002 | Solution=True | TimePerEdge=0.00199600798403194
-Stats: Time=7 ms | Nodes=128 | Edges=4139 | Solution=True | TimePerEdge=0.00169122976564388
-Stats: Time=38 ms | Nodes=256 | Edges=16367 | Solution=True | TimePerEdge=0.0023217449746441
-Stats: Time=224 ms | Nodes=512 | Edges=65543 | Solution=True | TimePerEdge=0.00341760371054117
-Stats: Time=1657 ms | Nodes=1024 | Edges=262046 | Solution=True | TimePerEdge=0.00632331728017218
-Stats: Time=14413 ms | Nodes=2048 | Edges=1048469 | Solution=True | TimePerEdge=0.0137467106800487
-Stats: Time=102549 ms | Nodes=4096 | Edges=4192577 | Solution=True | TimePerEdge=0.0244596581052656
-Stats: Time=809968 ms | Nodes=8192 | Edges=16782115 | Solution=True | TimePerEdge=0.0482637617487426
+Stats: Time=0 ms | Nodes=5 | Edges=5 | Solution=True | TimePerEdge=0
+Stats: Time=0 ms | Nodes=6 | Edges=9 | Solution=True | TimePerEdge=0
+Stats: Time=0 ms | Nodes=8 | Edges=19 | Solution=True | TimePerEdge=0
+Stats: Time=0 ms | Nodes=10 | Edges=24 | Solution=True | TimePerEdge=0
+Stats: Time=0 ms | Nodes=12 | Edges=41 | Solution=True | TimePerEdge=0
+Stats: Time=0 ms | Nodes=16 | Edges=58 | Solution=True | TimePerEdge=0
+Stats: Time=0 ms | Nodes=20 | Edges=107 | Solution=True | TimePerEdge=0
+Stats: Time=0 ms | Nodes=25 | Edges=152 | Solution=True | TimePerEdge=0
+Stats: Time=1 ms | Nodes=31 | Edges=258 | Solution=True | TimePerEdge=0.00387596899224806
+Stats: Time=0 ms | Nodes=39 | Edges=374 | Solution=True | TimePerEdge=0
+Stats: Time=0 ms | Nodes=49 | Edges=597 | Solution=True | TimePerEdge=0
+Stats: Time=1 ms | Nodes=61 | Edges=982 | Solution=True | TimePerEdge=0.0010183299389002
+Stats: Time=1 ms | Nodes=77 | Edges=1546 | Solution=True | TimePerEdge=0.000646830530401035
+Stats: Time=1 ms | Nodes=96 | Edges=2335 | Solution=True | TimePerEdge=0.000428265524625268
+Stats: Time=3 ms | Nodes=120 | Edges=3570 | Solution=True | TimePerEdge=0.000840336134453782
+Stats: Time=5 ms | Nodes=150 | Edges=5550 | Solution=True | TimePerEdge=0.000900900900900901
+Stats: Time=16 ms | Nodes=188 | Edges=8796 | Solution=True | TimePerEdge=0.00181900864029104
+Stats: Time=23 ms | Nodes=235 | Edges=13752 | Solution=True | TimePerEdge=0.00167248400232693
+Stats: Time=40 ms | Nodes=293 | Edges=21583 | Solution=True | TimePerEdge=0.00185331047583746
+Stats: Time=78 ms | Nodes=367 | Edges=33770 | Solution=True | TimePerEdge=0.00230974237488895
+Stats: Time=150 ms | Nodes=459 | Edges=52765 | Solution=True | TimePerEdge=0.00284279351843078
+Stats: Time=323 ms | Nodes=573 | Edges=82140 | Solution=True | TimePerEdge=0.00393231068906745
+Stats: Time=677 ms | Nodes=717 | Edges=128119 | Solution=True | TimePerEdge=0.00528414989189738
+Stats: Time=1129 ms | Nodes=896 | Edges=200601 | Solution=True | TimePerEdge=0.0056280875967717
+Stats: Time=2709 ms | Nodes=1121 | Edges=314684 | Solution=True | TimePerEdge=0.00860863596496803
+Stats: Time=5155 ms | Nodes=1401 | Edges=491776 | Solution=True | TimePerEdge=0.0104824147579386
+Stats: Time=8711 ms | Nodes=1751 | Edges=766694 | Solution=True | TimePerEdge=0.0113617688412848
+Stats: Time=22983 ms | Nodes=2189 | Edges=1197149 | Solution=True | TimePerEdge=0.0191981115132703
+Stats: Time=35803 ms | Nodes=2736 | Edges=1870268 | Solution=True | TimePerEdge=0.0191432457808186
+Stats: Time=65300 ms | Nodes=3421 | Edges=2926176 | Solution=True | TimePerEdge=0.0223158142230679
+Stats: Time=147310 ms | Nodes=4276 | Edges=4570688 | Solution=True | TimePerEdge=0.0322292836439503
+Stats: Time=227876 ms | Nodes=5345 | Edges=7143937 | Solution=True | TimePerEdge=0.0318978176879219
+Stats: Time=390125 ms | Nodes=6681 | Edges=11159137 | Solution=True | TimePerEdge=0.0349601407348973
+Stats: Time=931210 ms | Nodes=8352 | Edges=17432901 | Solution=True | TimePerEdge=0.0534168122677918

@@ -35,9 +35,9 @@ namespace SampeGraph
         {
             Console.WriteLine("== Running successive graph sizes ======================");
             var rand = new Random();
-            for (var i = 2; i <= 8192; i = i * 2)
+            for (var i = 2.0; i <= 9000.0; i *= 1.25)
             {
-                var g1 = Graph.GenerateRandom(rand, i, 0.25);
+                var g1 = Graph.GenerateRandom(rand, (int) i, 0.25);
                 var g2 = Graph.GenerateWithRandomizedStructure(rand, g1);
                 CheckGraphs(g1, g2, false);
             }

@@ -74,6 +74,7 @@ namespace SampeGraph
             {
                 var newState = new SolutionState(this);
                 newState.SetMapping(id, toId);
+                newState.Simplify();
                 return newState;
             }
 
